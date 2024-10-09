@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card" id="profileCard">
+        <img src="https://via.placeholder.com/150" alt="profile pic" id="profilePic">
+        <h1 id="profileName">John Doe</h1> 
+        <h2 id="profileDesig">Web Developer</h2> 
+        <div class="inputs">
+            <input type="text" placeholder="Enter your name or designation" id="inputField"> 
+            <button class="name" onclick="changeName()">Change Name</button>
+            <button class="name" onclick="changeDesignation()">Change Designation</button>
+            <button class="name" onclick="changePicture()">Change Picture</button>
+        </div>
+        <input type="color" id="colorPicker" value="#ffffff"> 
+        <button class="name" onclick="changeBackground()">Change Background</button>
+        <button class="name" onclick="resetProfile()">Reset Profile</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
